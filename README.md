@@ -20,8 +20,8 @@ This project is a machine learning-based solution for predicting house prices. I
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/house-price-prediction.git
-   cd house-price-prediction
+   git clone https://github.com/your-repo/house-prediction.git
+   cd house-prediction
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -45,7 +45,7 @@ This project is a machine learning-based solution for predicting house prices. I
    ```
 4. Make predictions:
    ```bash
-   python predict.py --input sample_data.csv
+   python house_prediction.py --input housing.csv
    ```
 
 ## Dataset
@@ -71,6 +71,4 @@ The model performance is evaluated using metrics such as:
 ## Contributing
 Feel free to contribute to this project by submitting pull requests or opening issues for discussion.
 
-## License
-This project is licensed under the MIT License.
 
